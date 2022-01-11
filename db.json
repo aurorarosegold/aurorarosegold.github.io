@@ -1,0 +1,23 @@
+[ 
+{
+		id: 8,
+		name: 'VALX Whey Protein',
+		description:
+			'100% Cocoa',
+		image: require('../images/08.jpg')
+	},
+	{
+		id: 9,
+		name: 'BROSH POMADE',
+		description:
+			'Original Hold',
+		image: require('../images/09.jpg')
+	},
+	{
+		id: 10,
+		name: 'MARVIS Whitening Mint',
+		description:
+			'The Only Teeth Whitening You Ever Need',
+		image: require('../images/10.jpg')
+	}
+];
