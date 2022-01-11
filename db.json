@@ -19,5 +19,5 @@
 		description:
 			'The Only Teeth Whitening You Ever Need',
 		image: require('../images/10.jpg')
-	}
+	} 
 ];
