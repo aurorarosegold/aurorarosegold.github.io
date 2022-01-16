@@ -1,47 +1,170 @@
-[
-  {
-    "id": "1",
-    "name": "Muffin",
-    "description": "Just a muffin"
-  },
-  {
-    "id": "2",
-    "name": "Ice archer",
-    "description": "Archie"
-  },
-  {
-    "id": "3",
-    "name": "Potato",
-    "description": "Potatoee"
-  },
-  {
-    "id": "4",
-    "name": "Tweety tweety birdie",
-    "description": "Chirp"
-  },
-  {
-    "id": "5",
-    "name": "Berry",
-    "description": "Pie"
-  },
-  {
-    "id": "6",
-    "name": "Luna Dragon",
-    "description": "Fire"
-  },
-  {
-    "id": "7",
-    "name": "Caterpillar",
-    "description": "Caterpillar"
-  },
-  {
-    "id": "8",
-    "name": "Strawberry",
-    "description": "Strawberry"
-  },
-  {
-    "id": "9",
-    "name": "Tomato",
-    "description": "Tomato"
-  }
-]
+{
+  "mCategories": [
+    { "id": "1", "name": "Wallet" },
+    { "id": "2", "name": "Tracking Tag"}
+  ],
+	"products": [
+    {
+			"id": "1",
+      "categoryId": "1",
+			"name": "MURA",
+      "tags": [],
+			"keywords:": ["Minimal"],
+			"description": "キャッシュレス時代に必要な物が、これひとつで収まる。時代に合わせた手のひらサイズに、画期的なスライド式カードケースを搭載。デザインも機能性も魅力的な次世代のミニ財布です。",
+      "price" : {
+        "amount": 6980.0,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "RFID", "value": "✔︎"},
+        { "name": "One Hand", "value": "×"},
+        { "name": "Colors", "value": "Black, Navy, Brown, Green"},
+        { "name": "Ext. Non RFID Card Pocket", "value": "✔"},
+        { "name": "Ext. Coin", "value": "Coin Pocket"},
+        { "name": "Ext. Note", "value": "Note Pocket"}
+      ],
+      "images": [
+        "/1/move.gif",
+        "/1/top.webp",
+        "/1/second.webp",
+        "/1/third.webp",
+        "/1/four.webp",
+        "/1/five.webp",
+        "/1/six.webp",
+        "/1/seven.webp",
+        "/1/eight.webp"
+      ],
+      "productUrl": "https://mura.ne.jp/products/wallet-3202"
+		},
+    {
+			"id": "2",
+      "categoryId": "1",
+			"name": "FANTOM",
+      "tags": [],
+			"keywords:": ["Minimal"],
+			"description": "Our thin aluminum wallet design has an ergonomic thumb lever designed for one-handed operation. One flick of your thumb and your cards are fanned, ready for you to select the card of your choice.",
+      "price" : {
+        "amount": 6739.87,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "RFID", "value": "✔︎"},
+        { "name": "One Hand", "value": "✔︎"},
+        { "name": "Colors", "value": "LightGray, Black, Gold, Red"},
+        { "name": "Ext. Non RFID Card Pocket", "value": "×"},
+        { "name": "Ext. Coin", "value": "×"},
+        { "name": "Ext. Note", "value": "Money Clip"}
+      ],
+      "images": [
+        "/2/second.gif",
+        "/2/third.gif",
+        "/2/top.jpg",
+        "/2/four.webp"
+      ],
+      "productUrl": "https://store.fantomwallet.com/build-your-own-credit-card-fan-wallet/?"
+		},
+    {
+			"id": "3",
+      "categoryId": "1",
+			"name": "EKSTER",
+      "tags": [],
+			"keywords:": ["Minimal"],
+			"description": "A premium leather smart wallet, perfect for slim storage and quick card access. The built-in aluminum cardholder fans out your cards at the click of a button and protects them against skimming. Add a tracker card to make it unlosable.",
+      "price" : {
+        "amount": 71,
+        "unit": "USD"
+      },
+      "images": [
+        "/3/1.webp",
+        "/3/2.webp",
+        "/3/3.webp"
+      ],
+      "properties": [
+        { "name": "RFID", "value": "✔︎"},
+        { "name": "One Hand", "value": "×"},
+        { "name": "Colors", "value": "Brown, Black, YellowishBrown, Green, Red, Navy"},
+        { "name": "Ext. Non RFID Card Pocket", "value": "✔︎"},
+        { "name": "Ext. Coin", "value": "Money Pocket"},
+        { "name": "Ext. Note", "value": "Note Pocket"}
+      ],
+      "productUrl": "https://ekster.com/products/parliament?variant=30112041435199"
+		},
+    {
+			"id": "4",
+      "categoryId": "1",
+			"name": "Secrid",
+      "tags": [],
+			"keywords:": ["Minimal", "Wallet", "RFID"],
+			"description": "The Cardprotector is the heart of our collection and our most minimal wallet. The patented mechanism allows you to slide out your cards with one simple motion, ready for immediate use. The aluminium casing protects from bending, breaking and unwanted wireless communication.",
+      "price" : {
+        "amount": 13797.0,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "RFID", "value": "✔︎"},
+        { "name": "One Hand", "value": "×"},
+        { "name": "Colors", "value": "Brown, Black, YellowishBrown, Green, Red, Navy"},
+        { "name": "Ext. Non RFID Card Pocket", "value": "✔︎"},
+        { "name": "Ext. Coin", "value": "Money Pocket"},
+        { "name": "Ext. Note", "value": "Note Pocket"}
+      ],
+      "images": [
+        "/4/1.webp",
+        "/4/2.webp",
+        "/4/3.webp"
+      ],
+      "productUrl": "https://amzn.to/3fv770I"
+		},
+    {
+			"id": "5",
+      "categoryId": "1",
+			"name": "Zenlet",
+      "tags": [],
+			"keywords:": ["Minimal"],
+			"description": "Slide 2 cases for coins and cards, respectivly.",
+      "price" : {
+        "amount": 18300,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "RFID", "value": "✔︎"},
+        { "name": "One Hand", "value": "✔︎"},
+        { "name": "Colors", "value": "White, Gray, Green"},
+        { "name": "Ext. Non RFID Card Pocket", "value": "✔︎"},
+        { "name": "Ext. Coin", "value": "Case"},
+        { "name": "Ext. Note", "value": "Case"}
+      ],
+      "images": [
+        "/5/0.webp",
+        "/5/1.webp",
+        "/5/2.webp"
+      ],
+      "productUrl": "https://amzn.to/3fv770I"
+		},
+    {
+      "id": "6",
+      "categoryId": "2",
+			"name": "Apple Air Tag",
+      "tags": [],
+			"keywords:": ["Apple"],
+			"description": "Lose your knack for losing things. AirTag is a supereasy way to keep track of your stuff. Attach one to your keys, slip another in your backpack. And just like that, they’re on your radar in the Find My app, where you can also track down your Apple devices and keep up with friends and family.",
+      "price" : {
+        "amount": 29,
+        "unit": "USD"
+      },
+      "properties": [
+        { "name": "Battery life", "value": "> 1 year"},
+        { "name": "Recharge", "value": "Coin battery"},
+        { "name": "Work with Apple Find My", "value": "✔︎"}
+      ],
+      "images": [
+        "/6/0.jpg",
+        "/6/1.jpg",
+        "/6/2.jpg",
+        "/6/3.jpg",
+        "/6/4.jpg"
+      ],
+      "productUrl": "https://amzn.to/3qvTPXQ"
+    }
+	]
+}
