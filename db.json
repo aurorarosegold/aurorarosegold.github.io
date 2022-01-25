@@ -1,12 +1,13 @@
 {
   "mCategories": [
-    { "id": "1", "name": "Wallet" },
-    { "id": "2", "name": "Tracking Tag"}
+    { "id": 1, "name": "Wallet" },
+    { "id": 2, "name": "Tracking Tag"},
+    { "id": 3, "name": "Specified Low Power Radio Station"}
   ],
 	"products": [
     {
-			"id": "1",
-      "categoryId": "1",
+			"id": 1,
+      "categoryId": 1,
 			"name": "MURA",
       "tags": [],
 			"keywords:": ["Minimal"],
@@ -37,8 +38,8 @@
       "productUrl": "https://mura.ne.jp/products/wallet-3202"
 		},
     {
-			"id": "2",
-      "categoryId": "1",
+			"id": 2,
+      "categoryId": 1,
 			"name": "FANTOM",
       "tags": [],
 			"keywords:": ["Minimal"],
@@ -64,8 +65,8 @@
       "productUrl": "https://store.fantomwallet.com/build-your-own-credit-card-fan-wallet/?"
 		},
     {
-			"id": "3",
-      "categoryId": "1",
+			"id": 3,
+      "categoryId": 1,
 			"name": "EKSTER",
       "tags": [],
 			"keywords:": ["Minimal"],
@@ -90,8 +91,8 @@
       "productUrl": "https://ekster.com/products/parliament?variant=30112041435199"
 		},
     {
-			"id": "4",
-      "categoryId": "1",
+			"id": 4,
+      "categoryId": 1,
 			"name": "Secrid",
       "tags": [],
 			"keywords:": ["Minimal", "Wallet", "RFID"],
@@ -116,8 +117,8 @@
       "productUrl": "https://amzn.to/3fv770I"
 		},
     {
-			"id": "5",
-      "categoryId": "1",
+			"id": 5,
+      "categoryId": 1,
 			"name": "Zenlet",
       "tags": [],
 			"keywords:": ["Minimal"],
@@ -142,8 +143,8 @@
       "productUrl": "https://amzn.to/3fv770I"
 		},
     {
-      "id": "6",
-      "categoryId": "2",
+      "id": 1001,
+      "categoryId": 2,
 			"name": "Apple Air Tag",
       "tags": [],
 			"keywords:": ["Apple"],
@@ -158,13 +159,138 @@
         { "name": "Work with Apple Find My", "value": "✔︎"}
       ],
       "images": [
-        "/6/0.jpg",
-        "/6/1.jpg",
-        "/6/2.jpg",
-        "/6/3.jpg",
-        "/6/4.jpg"
+        "/1001/0.jpg",
+        "/1001/1.jpg",
+        "/1001/2.jpg",
+        "/1001/3.jpg",
+        "/1001/4.jpg"
       ],
       "productUrl": "https://amzn.to/3qvTPXQ"
+    },
+    {
+      "id": 1002,
+      "categoryId": 2,
+			"name": "Chipolo CARD Spot",
+      "tags": [],
+			"keywords:": ["Chipolo", "Minimal"],
+			"description": "Add Chipolo CARD Spot to the Apple Find My app and hundreds of millions of friends in the Find My network will help you find your missing wallet. When your wallet is hiding nearby, play a very loud sound to locate it. Get a notification when you accidentally leave your wallet behind or when the Apple Find My network locates your missing item. Chipolo CARD Spot is so thin it fits perfectly into any wallet.",
+      "price" : {
+        "amount": 35,
+        "unit": "EUR"
+      },
+      "properties": [
+        { "name": "Size(mm)", "value": "31.9 x 31.9 x 8.0"},
+        { "name": "Battery life", "value": "> 2 years"},
+        { "name": "Recharge", "value": "Recycle program"},
+        { "name": "Work with Apple Find My", "value": "✔︎"}
+      ],
+      "images": [
+        "/1002/1.webp",
+        "/1002/2.jpg",
+        "/1002/3.jpg",
+        "/1002/4.jpg",
+        "/1002/5.jpg"
+      ],
+      "productUrl": "https://chipolo.net/en/products/chipolo-card-spot?cl=header"
+    },
+    {
+      "id": 1003,
+      "categoryId": 2,
+			"name": "Chipolo ONE Spot",
+      "tags": [],
+			"keywords:": ["Chipolo", "Minimal"],
+			"description": "Add Chipolo ONE Spot to the Apple Find My app and hundreds of millions of friends in the Find My network will help you find your missing keys. When your keys are hiding nearby, play a very loud sound to locate them. Get a notification when you accidentally leave your keys behind or when the Apple Find My network locates your missing item. Chipolo ONE Spot attaches directly to your keyring.",
+      "price" : {
+        "amount": 35,
+        "unit": "EUR"
+      },
+      "properties": [
+        { "name": "Size(mm)", "value": "37.9 x 37.9 x 6.4"},
+        { "name": "Battery life", "value": "> 1 years"},
+        { "name": "Recharge", "value": "Coin battery"},
+        { "name": "Work with Apple Find My", "value": "✔︎"}
+      ],
+      "images": [
+        "/1003/1.webp",
+        "/1003/2.jpg",
+        "/1003/3.jpg",
+        "/1003/4.jpg",
+        "/1003/5.jpg"
+      ],
+      "productUrl": "https://chipolo.net/en/products/chipolo-one-spot?cl=header"
+    },
+    {
+      "id": 1004,
+      "categoryId": 2,
+			"name": "Tile Pro",
+      "tags": [],
+			"keywords:": ["Tile", "Minimal"],
+			"description": "Tileは、世界230以上の国や地域で利用されている探し物を「音」で見つけるスマートトラッカーです",
+      "price" : {
+        "amount": 4119,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "Size(mm)", "value": "59.0 x 34.0 x 7.7"},
+        { "name": "Battery life", "value": "≒ 1 year"},
+        { "name": "Recharge", "value": "Coin battery"},
+        { "name": "Work with Apple Find My", "value": "×"}
+      ],
+      "images": [
+        "/1004/1.jpg",
+        "/1004/2.jpg"
+      ],
+      "productUrl": "https://amzn.to/33U7cbQ"
+    },
+    {
+      "id": 1005,
+      "categoryId": 2,
+			"name": "MAMORIO CARD",
+      "tags": [],
+			"keywords:": ["MAMORIO", "Minimal"],
+			"description": "Tileは、世界230以上の国や地域で利用されている探し物を「音」で見つけるスマートトラッカーです",
+      "price" : {
+        "amount": 6578,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "Size(mm)", "value": "85.5 x 54.0 x 1.7"},
+        { "name": "Battery life", "value": "≒ 6 months"},
+        { "name": "Recharge", "value": "Recharge"},
+        { "name": "Work with Apple Find My", "value": "×"}
+      ],
+      "images": [
+        "/1005/1.jpg",
+        "/1005/2.jpg",
+        "/1005/3.jpg",
+        "/1005/4.jpg"
+      ],
+      "productUrl": "https://amzn.to/3H16dVT"
+    },
+    {
+      "id": 2001,
+      "categoryId": 3,
+			"name": "IC-5010",
+      "tags": [],
+			"keywords:": ["Offgrid", "Emergency"],
+			"description": "新たに秘話機能を搭載。防塵・防水タイプの同時通話対応 特定小電力トランシーバー。",
+      "price" : {
+        "amount": 50491,
+        "unit": "JPY"
+      },
+      "properties": [
+        { "name": "Communication system", "value": "Duplex, Broadcast"},
+        { "name": "Noise canceling", "value": "Compandor"},
+        { "name": "Microphone gain", "value": "Flexible 5"},
+        { "name": "Battery life", "value": "1mW 14h, 10mW 12h"},
+        { "name": "IP", "value": "67"},
+        { "name": "Secret talk", "value": "✔︎"}
+      ],
+      "images": [
+        "/1006/1.png",
+        "/1006/2.png"
+      ],
+      "productUrl": "https://amzn.to/3nTV8hS"
     }
 	]
 }
